@@ -1,15 +1,13 @@
 <?php 
 
-session_start();
-$_SESSION['status']='oke';
-//session_destroy();
 
-if($_SESSION['status']!=''){
-    header('Location: views/dashboard.php');
-    exit;
+
+if($_COOKIE['login']!=''){
+    include('views/dashboard.php');
+
 }else{
-    header('Location: views/login.php');
-    exit;
+    include('views/login.php');
+
 }
 
 ?>

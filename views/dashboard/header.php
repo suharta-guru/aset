@@ -37,7 +37,7 @@
                         <li><a class="dropdown-item dropdown-item-premium" href="#"><i data-lucide="credit-card" size="16"></i> Billing</a></li>
                         <li><a class="dropdown-item dropdown-item-premium" href="#"><i data-lucide="settings" size="16"></i> Settings</a></li>
                         <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item dropdown-item-premium text-danger" href="#"><i data-lucide="log-out" size="16"></i> Logout</a></li>
+                        <li><a class="dropdown-item dropdown-item-premium text-danger" href="views/login/logout.php"><i data-lucide="log-out" size="16"></i> Logout</a></li>
                     </ul>
                 </div>
             </div>

@@ -18,7 +18,7 @@
             <div class="mt-auto pb-4">
                 <div class="nav-section-label">System</div>
                 <a href="#" class="nav-link-custom"><i data-lucide="settings"></i> Settings</a>
-                <a href="#" class="nav-link-custom text-danger"><i data-lucide="log-out"></i> Logout</a>
+                <a href="views/login/logout.php" class="nav-link-custom text-danger"><i data-lucide="log-out"></i> Logout</a>
             </div>
         </div>
     </aside>
