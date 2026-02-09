@@ -15,7 +15,9 @@
     </div>
 
     <div class="d-flex flex-column flex-grow-1 overflow-auto custom-scrollbar">
-        <a href="index.php" class="nav-link-custom <?= $active_beranda ?>"><i data-lucide="house"></i>  Beranda</a>
+       <a href="index.php" class="nav-link-custom <?= $active_beranda ?>">
+    <i class="bi bi-house-door"></i> Beranda
+</a>
         <?php include('menu/adm_instansi.php') ?>
         <?php include('menu/adm_aset.php') ?>
         <?php include('menu/staf_aset.php') ?>

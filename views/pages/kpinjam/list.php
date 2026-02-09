@@ -49,6 +49,9 @@
                     </td>
                     <td class="text-end pe-4">
                         <div class="d-flex justify-content-end gap-2">
+                             <a href="?pg=<?= $pg ?>&fl=kembali" target="_blank" class="btn btn-sm text-warning bg-warning bg-opacity-10 border-0 rounded-2" style="width: 32px; height: 32px; display: inline-flex; align-items: center; justify-content: center;" title="Print Surat">
+                                <i class="bi bi-arrow-left-circle"></i>
+                            </a>
                             <a href="?pg=<?= $pg ?>&fl=cetak" target="_blank" class="btn btn-sm text-success bg-success bg-opacity-10 border-0 rounded-2" style="width: 32px; height: 32px; display: inline-flex; align-items: center; justify-content: center;" title="Print Surat">
                                 <i class="bi bi-printer-fill"></i>
                             </a>
@@ -83,6 +86,9 @@
                     </td>
                     <td class="text-end pe-4">
                         <div class="d-flex justify-content-end gap-2">
+                             <a href="?pg=<?= $pg ?>&fl=kembali" target="_blank" class="btn btn-sm text-warning bg-warning bg-opacity-10 border-0 rounded-2" style="width: 32px; height: 32px; display: inline-flex; align-items: center; justify-content: center;" title="Print Surat">
+                                <i class="bi bi-arrow-left-circle"></i>
+                            </a>
                             <a href="?pg=<?= $pg ?>&fl=cetak" target="_blank" class="btn btn-sm text-success bg-success bg-opacity-10 border-0 rounded-2" style="width: 32px; height: 32px; display: inline-flex; align-items: center; justify-content: center;" title="Print Surat">
                                 <i class="bi bi-printer-fill"></i>
                             </a>

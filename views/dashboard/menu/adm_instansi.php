@@ -8,5 +8,9 @@
 ?>
 
 <div class="nav-section-label">Admin Instansi</div>
-    <a href="?pg=kpegawai&fl=list" class="nav-link-custom <?= $active_kpegawai ?>"><i data-lucide="user"></i> Pegawai</a>
-    <a href="?pg=kpengelola&fl=list" class="nav-link-custom <?= $active_kpengelola ?>"><i data-lucide="userCog"></i> Pengelola aset</a>
+    <a href="?pg=kpegawai&fl=list" class="nav-link-custom <?= $active_kpegawai ?>">
+    <i class="bi bi-person"></i> Pegawai
+</a>
+<a href="?pg=kpengelola&fl=list" class="nav-link-custom <?= $active_kpengelola ?>">
+    <i class="bi bi-person-gear"></i> Pengelola aset
+</a>
