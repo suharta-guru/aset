@@ -5,11 +5,9 @@
     $tombol=$_POST['tombol'] ?? '';
 
     if($tombol){
-        
-            setcookie("login", "coba");
-
-            header('Location:../index.php');
-            exit;
+            $_SESSION['status']='OKE';
+            header('Location:index.php');
+           
         }
 ?>
 
